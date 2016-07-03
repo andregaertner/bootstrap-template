@@ -8,19 +8,19 @@ Bower
 Gulp
 Bootstrap
 
-Scaffolding
+<strong>Scaffolding</strong>
 
 Ein Einsatz von Scaffolding Yeoman eignet sehr gut, um Projekte schnell erstellen zu können. Der Vorteil dieser Technologie ist das innerhalb von Sekunden eine Arbeitsumgebung geschaffen wird (Ordner- und Dateienstruktur).
 
 ----------------------
 
-Taskrunner
+<strong>Taskrunner</strong>
 
 Taskrunner  sind Programme, die Ihre Arbeit im Hintergrund verrichten und dass automatisieren von Prozessen ermöglichen. Gulp und Grunt sind beispielsweise Taskrunner mit denen man Prozesse auf der Konsole absetzen kann, um bestimmte Arbeiten zu verrichten. Dazu gehören Prozesse wie Assemblierung, Minifizierung, Automatisierung und Kompilierung.  Beispielweise lassen sich SASS-Dateien kompilieren, Veränderungen an Dateien überwachen und Browser aktualisieren.
 
 ----------------------
 
-PackageManager
+<strong>PackageManager</strong>
 
 PackageManager sind Programme, die Abhängigkeiten von Komponenten verwalten. NPM und Bower sind beispielweise PackageManager. Ihre Aufgabe ist es Abhängigkeiten zu verwalten und die richtigen Versionen der Packete zu installieren.
 
