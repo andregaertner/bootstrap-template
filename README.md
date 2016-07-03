@@ -25,7 +25,7 @@ PackageManager
 PackageManager sind Programme, die Abhängigkeiten von Komponenten verwalten. NPM und Bower sind beispielweise PackageManager. Ihre Aufgabe ist es Abhängigkeiten zu verwalten und die richtigen Versionen der Packete zu installieren.
 
 
-
+----------------------
 
 Im app Ordner finden Sie die Entwicklungsdateien.  
 
