@@ -50,10 +50,10 @@ cd path
 
 Sie müssen NodeJS, NPM, Bower und Gulp installiert haben.
 
-https://nodejs.org/en/
-https://www.npmjs.com/
-https://bower.io/  oder https://github.com/bower/bower
-https://github.com/gulpjs/gulp
+[Absolute README link](https://nodejs.org/en/)
+[Absolute README link](https://www.npmjs.com/)
+[Absolute README link](https://bower.io/  oder https://github.com/bower/bower)
+[Absolute README link](https://github.com/gulpjs/gulp)
 
 Führen Sie nun in dem gleichen Verzeichnis über die Konsole <strong>npm install</strong> aus. Danach müssen Sie noch die Abhängigkeiten für Bower ausführen über <strong>bower install</strong>.  
 
