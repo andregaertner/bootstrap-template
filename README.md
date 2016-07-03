@@ -31,21 +31,21 @@ Im app Ordner finden Sie die Entwicklungsdateien.
 
 Projekt installieren
 
-Schritt 1
+<strong>Schritt 1</strong>
 
 Downloaden Sie das Repository.
 
-Schritt 2
+<strong>Schritt 2</strong>
 
 Entpacken Sie das Projekt
 
-Schritt 3
+<strong>Schritt 3</strong>
 
 Gehen Sie in das Verzeichnis im Terminal.
 
 cd path
 
-Schritt 4
+<strong>Schritt 4</strong>
 
 
 Sie müssen NodeJS, NPM, Bower und Gulp installiert haben.
@@ -57,11 +57,11 @@ https://github.com/gulpjs/gulp
 
 Führen Sie nun in dem gleichen Verzeichnis über die Konsole <strong>npm install</strong> aus. Danach müssen Sie noch die Abhängigkeiten für Bower ausführen über <strong>bower install</strong>.  
 
-Schritt 5
+<strong>Schritt 5</strong>
 
 Nun müsste die Arbeitsumgebung eingerichtet sein. Die Verzeichnisse node_modules und bower_components sollten nun im Verzeichnis erscheinen.
 
-Schritt 6
+<strong>Schritt 6</strong>
 
 Wenn Sie nun npm start im Terminal ausführen sollte die App starten.
 
