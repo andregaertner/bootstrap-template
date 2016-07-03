@@ -1,0 +1,154 @@
+$icon-font-path: '../fonts/';
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+  /*padding-top: 20px;*/
+
+  background: url(../images/carbon_fibre_v2.png);
+  background: #eee;
+}
+
+.container{ background: #fff; }
+
+
+body > .container {
+  padding: 15px 15px 0;
+  margin-top: 60px;
+  -webkit-box-shadow: 0px 0px 5px 2px rgba(120,120,120,0.75);
+  -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 5px 2px rgba(120,120,120,0.75);
+}
+
+
+footer > .container, header > .container{ padding: 0; }
+
+
+/* navbar */
+/*
+.navbar, .footer, .breadcrumb, form{
+  background: #c4eeea !important;
+}
+*/
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+
+  /* Make the masthead heading the same height as the navigation */
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+  }
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /*
+  .container {
+    max-width: 730px;
+  }
+  */
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+ margin-bottom: 262px; /* scroller istnoch active durch falsche berechnung hört bei 192px auf*/
+}
+
+.navbar{
+  background: #fff !important;
+}
+
+
+form select{
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+}
+
+
+/* STICKY FOOTER */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left:0;
+  background-color: #fff;
+  /* Set the fixed height of the footer here */
+  height: 252px;
+}
+
+/* footer wrapper*/
+.footer .row-fluid{
+  width:100%;
+  overflow: hidden;
+  padding: 0 !important;
+}
+
+
+/* first list footer nav*/
+.footer .row-fluid .col-lg-2 .unstyled:first-child{
+  padding: 0 !important;
+}
+
+.footer .row-fluid li{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .footer .col-lg-6, {
+    width: 100%;
+    margin-top: 10px;
+    float: left;
+  }
+}
