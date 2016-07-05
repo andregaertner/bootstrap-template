@@ -109,3 +109,8 @@ Wenn Sie nun npm start im Terminal ausführen sollte die App starten.
 Über den Port 9000 ist die Website erreichbar.
 
 http://localhost:9000/
+
+
+# License
+
+license (MIT)
