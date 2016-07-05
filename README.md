@@ -1,5 +1,4 @@
 # bootstrap-template
-bootstrap-template
 
 <strong>Eingesetze Technologie</strong>
 
@@ -68,9 +67,10 @@ bootstrap/
     └── glyphicons-halflings-regular.woff2
 ```
 
+
 Im app Ordner finden Sie die Entwicklungsdateien.  
 
-Projekt installieren
+#Projekt installieren
 
 <strong>Schritt 1</strong>
 
