@@ -27,6 +27,47 @@ PackageManager sind Programme, die Abhängigkeiten von Komponenten verwalten. NP
 
 ----------------------
 
+## Dateienstruktur
+
+```
+bootstrap/
+├── App/
+│   ├── fonts
+│   ├── images
+│   ├── scripts
+│   │   └── main.js
+│   ├── styles
+│   │   └── main.scss
+│   ├── about.html
+│   ├── apple-touch-icon.png
+│   ├── contact.html
+│   ├── index.html
+│   ├── projects.html
+│   └── robots.txt
+├── bower_components/
+├── └── ...
+├── bower.json
+├── dist/
+├── └── ...
+├── gulpfile.js
+├── node_modules/
+├── └── ...
+├── package.json
+├── test/
+├── ├── index.html
+├── └── spec/
+│   │   └──test.js
+├── js/
+│   ├── bootstrap.js  
+│   └── bootstrap.min.js
+└── fonts/
+    ├── glyphicons-halflings-regular.eot
+    ├── glyphicons-halflings-regular.svg
+    ├── glyphicons-halflings-regular.ttf
+    ├── glyphicons-halflings-regular.woff
+    └── glyphicons-halflings-regular.woff2
+```
+
 Im app Ordner finden Sie die Entwicklungsdateien.  
 
 Projekt installieren
@@ -50,7 +91,7 @@ cd path
 
 Sie müssen NodeJS, NPM, Bower und Gulp installiert haben.
 
-[NodeJS](https://nodejs.org/en/), 
+[NodeJS](https://nodejs.org/en/),
 [NPM](https://www.npmjs.com/),
 [Bower](https://bower.io/  oder https://github.com/bower/bower),
 [Gulp](https://github.com/gulpjs/gulp),
